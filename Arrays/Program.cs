@@ -14,12 +14,13 @@ namespace Arrays
 
             while (shouldContinue)
             {
-                List<string> names = new List<string>();
-
-                names[0] = "Shark";
-                names[1] = "Dave";
-                names[2] = "Coco";
-                names[3] = "Buttface";
+                List<string> names = new List<string>()
+                {
+                    "Shark",
+                    "Dave",
+                    "Coco",
+                    "Buttface"
+                };
 
                 Console.WriteLine("Enter your name");
                 Console.WriteLine();
