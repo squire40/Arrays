@@ -10,7 +10,7 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            bollean shouldContinue = true;
+            bool shouldContinue = true;
 
             while (shouldContinue)
             {
